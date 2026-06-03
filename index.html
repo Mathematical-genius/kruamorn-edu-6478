@@ -74,23 +74,15 @@
             grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); 
             align-items: start;
         }
-        /* Size classes now define the grid span, scaling proportionally */
+        /* Size classes now define the grid span - removed grid-row and aspect ratio to let text show */
         .size-sm {
             grid-column: span 1;
-            grid-row: span 1;
-            aspect-ratio: 1 / 1;
         }
-
         .size-md {
             grid-column: span 2;
-            grid-row: span 2;
-            aspect-ratio: 1 / 1;  /* สี่เหลี่ยมจัตุรัส */
         }
-
         .size-lg {
             grid-column: span 3;
-            grid-row: span 3;
-            aspect-ratio: 1 / 1;  /* สี่เหลี่ยมจัตุรัส */
         }
     </style>
 </head>
